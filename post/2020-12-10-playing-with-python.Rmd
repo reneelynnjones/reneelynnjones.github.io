@@ -9,6 +9,10 @@ description: ''
 ---
 # My Favorite Python Code!
 
+Regex was super challenging, but satisfying for me as it applies a regular expression to a string and returns the matching substrings. Here are some of my favorites.
+
+<br>
+
 ```{python}
 import re
 string1="We have to extract these numbers 12, 47, 48 The integers numbers are also interesting: 189 2036 314\',\' is a separator, so please extract these numbers 125,789,1450 and also these 564,90456 We like to offer you 7890$ per month in order to complete this task... we are joking"
@@ -26,9 +30,17 @@ Jan 13 17:52:08: ACCEPT service http from 213.121.184.130 to firewall(pub-nic), 
 re.findall(r"[0-9]+(?:\.[0-9]+){3}", string2)
 ```
 
+<br>
+
+Even after doing that, this is still how I feel. 
 ![](/post/2020-12-10-playing-with-python_files/Screen Shot 2020-12-10 at 2.35.46 PM.png)
+<br>
 
 # Let's Reticulate!
+
+This demonstrates how R and python talk to each other and share information across code chunks.
+
+<br>
 
 ```{r}
 library(reticulate)
@@ -45,4 +57,6 @@ print(Melanoma.head())
 library(ggplot2)
 ggplot()+geom_point(aes(py$Melanoma$time, py$Melanoma$thickness))
 ```
+
 ![](/post/2020-12-10-playing-with-python_files/Screen Shot 2020-12-11 at 9.04.07 AM.png)
+

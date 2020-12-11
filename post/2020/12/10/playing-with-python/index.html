@@ -76,6 +76,8 @@
 
 <div id="my-favorite-python-code" class="section level1">
 <h1>My Favorite Python Code!</h1>
+<p>Regex was super challenging, but satisfying for me as it applies a regular expression to a string and returns the matching substrings. Here are some of my favorites.</p>
+<p><br></p>
 <pre class="python"><code>import re
 string1=&quot;We have to extract these numbers 12, 47, 48 The integers numbers are also interesting: 189 2036 314\&#39;,\&#39; is a separator, so please extract these numbers 125,789,1450 and also these 564,90456 We like to offer you 7890$ per month in order to complete this task... we are joking&quot;
 re.findall(r&quot;[0-9]+&quot;,string1)</code></pre>
@@ -90,10 +92,15 @@ Jan 13 17:52:08: ACCEPT service http from 213.121.184.130 to firewall(pub-nic), 
 (in: eth0 213.121.184.130(00:05:2e:6a:a4:14):8504 -&gt; 140.105.63.164(00:60:11:92:ed:1b):80 TCP flags: ****S* len:52 ttl:109)&quot;
 re.findall(r&quot;[0-9]+(?:\.[0-9]+){3}&quot;, string2)</code></pre>
 <pre><code>## [&#39;213.92.153.167&#39;, &#39;69.43.107.219&#39;, &#39;69.43.112.233&#39;, &#39;217.70.100.113&#39;, &#39;74.125.186.208&#39;, &#39;74.125.186.208&#39;, &#39;140.105.63.158&#39;, &#39;172.45.240.237&#39;, &#39;217.70.177.60&#39;, &#39;216.34.90.16&#39;, &#39;69.43.85.253&#39;, &#39;213.121.184.130&#39;, &#39;213.121.184.130&#39;, &#39;140.105.63.164&#39;]</code></pre>
-<p><img src="/post/2020-12-10-playing-with-python_files/Screen%20Shot%202020-12-10%20at%202.35.46%20PM.png" /></p>
+<p><br></p>
+<p>Even after doing that, this is still how I feel.
+<img src="/post/2020-12-10-playing-with-python_files/Screen%20Shot%202020-12-10%20at%202.35.46%20PM.png" />
+<br></p>
 </div>
 <div id="lets-reticulate" class="section level1">
 <h1>Let’s Reticulate!</h1>
+<p>This demonstrates how R and python talk to each other and share information across code chunks.</p>
+<p><br></p>
 <pre class="r"><code>library(reticulate)
 reticulate::py_install(&quot;pandas&quot;)</code></pre>
 <pre class="python"><code>import pandas as pd
@@ -107,8 +114,8 @@ print(Melanoma.head())</code></pre>
 ## 4   185       1    1   52  1965      12.08      1</code></pre>
 <pre class="r"><code>library(ggplot2)
 ggplot()+geom_point(aes(py$Melanoma$time, py$Melanoma$thickness))</code></pre>
-<p><img src="/post/2020-12-10-playing-with-python_files/figure-html/unnamed-chunk-5-1.png" width="672" />
-<img src="/post/2020-12-10-playing-with-python_files/Screen%20Shot%202020-12-11%20at%209.04.07%20AM.png" /></p>
+<p><img src="/post/2020-12-10-playing-with-python_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p><img src="/post/2020-12-10-playing-with-python_files/Screen%20Shot%202020-12-11%20at%209.04.07%20AM.png" /></p>
 </div>
 
             
