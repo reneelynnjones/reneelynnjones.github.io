@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My Website</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on My Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Playing with Python!</title>
+      <link>/post/2020/12/10/playing-with-python/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/12/10/playing-with-python/</guid>
+      <description>My Favorite Python Code! import re string1=&amp;quot;We have to extract these numbers 12, 47, 48 The integers numbers are also interesting: 189 2036 314\&amp;#39;,\&amp;#39; is a separator, so please extract these numbers 125,789,1450 and also these 564,90456 We like to offer you 7890$ per month in order to complete this task... we are joking&amp;quot; re.findall(r&amp;quot;[0-9]+&amp;quot;,string1) ## [&amp;#39;12&amp;#39;, &amp;#39;47&amp;#39;, &amp;#39;48&amp;#39;, &amp;#39;189&amp;#39;, &amp;#39;2036&amp;#39;, &amp;#39;314&amp;#39;, &amp;#39;125&amp;#39;, &amp;#39;789&amp;#39;, &amp;#39;1450&amp;#39;, &amp;#39;564&amp;#39;, &amp;#39;90456&amp;#39;, &amp;#39;7890&amp;#39;] string2=&amp;quot;Jan 13 00:48:59: DROP service 68-&amp;gt;67(udp) from 213.</description>
+    </item>
+    
+  </channel>
+</rss>

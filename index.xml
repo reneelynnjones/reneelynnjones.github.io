@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Website</title>
+    <link>/</link>
+    <description>Recent content on My Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Playing with Python!</title>
+      <link>/post/2020/12/10/playing-with-python/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/12/10/playing-with-python/</guid>
+      <description>My Favorite Python Code! import re string1=&amp;quot;We have to extract these numbers 12, 47, 48 The integers numbers are also interesting: 189 2036 314\&amp;#39;,\&amp;#39; is a separator, so please extract these numbers 125,789,1450 and also these 564,90456 We like to offer you 7890$ per month in order to complete this task... we are joking&amp;quot; re.findall(r&amp;quot;[0-9]+&amp;quot;,string1) ## [&amp;#39;12&amp;#39;, &amp;#39;47&amp;#39;, &amp;#39;48&amp;#39;, &amp;#39;189&amp;#39;, &amp;#39;2036&amp;#39;, &amp;#39;314&amp;#39;, &amp;#39;125&amp;#39;, &amp;#39;789&amp;#39;, &amp;#39;1450&amp;#39;, &amp;#39;564&amp;#39;, &amp;#39;90456&amp;#39;, &amp;#39;7890&amp;#39;] string2=&amp;quot;Jan 13 00:48:59: DROP service 68-&amp;gt;67(udp) from 213.</description>
+    </item>
+    
+    <item>
+      <title>Project 2: Modeling, Testing, and Predicting</title>
+      <link>/project/project2/</link>
+      <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/project2/</guid>
+      <description>1. Introduction Melanoma &amp;lt;- read.csv(&amp;quot;Melanoma.csv&amp;quot;) ??Melanoma Melanoma$sex[Melanoma$sex==&amp;quot;1&amp;quot;] &amp;lt;- &amp;quot;Male&amp;quot; Melanoma$sex[Melanoma$sex==&amp;quot;0&amp;quot;] &amp;lt;- &amp;quot;Female&amp;quot; Melanoma$status[Melanoma$status==&amp;quot;1&amp;quot;] &amp;lt;- &amp;quot;Dead&amp;quot; Melanoma$status[Melanoma$status==&amp;quot;2&amp;quot;] &amp;lt;- &amp;quot;Alive&amp;quot; Melanoma$status[Melanoma$status==&amp;quot;3&amp;quot;] &amp;lt;- &amp;quot;Other causes&amp;quot; The dataset Melanoma has 205 observations on patients in Denmark with malignant melanoma. There are 7 variables, 4 of which are numeric, 3 are categorical, and 2 of those 3 are binary. The variables include survival time measured in days, sex depicted as male(1) or female(0), age in years, the year of operation, tumor thickness in mm, and ulcer depicted as present(1) or absent(0).</description>
+    </item>
+    
+    <item>
+      <title>Project 1: Exploratory Data Analysis</title>
+      <link>/project/project1/</link>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/project1/</guid>
+      <description>1. Introduction The first dataset I chose for my exploratory data analysis was state.x77, renamed State. It contains 50 observations for each U.S. state and includes data for each state. Those variables include population, income per capita, illiteracy, life expectancy, murder rates, high school graduation percentage, frost or mean days with a temperature below freezing, and area. My second dataset is TeenPregnancy which also includes 50 observations for each U.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/</guid>
+      <description>  Check out some of my coding projects below:
+ Wrangling &amp;amp; Exploratory Data Analysis
+ Modeling, Inference, Prediction
+  -- </description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/</guid>
+      <description>   </description>
+    </item>
+    
+  </channel>
+</rss>
